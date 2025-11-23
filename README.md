@@ -1,3 +1,6 @@
+# kyoreen-data-analyst
+Collection of my data analytics projects and notebooks.
+
 # Hi, I'm Valentinus Putra or you can call me Kyoreen 👋
 
 Data Analyst | Esports Performance Analyst |
