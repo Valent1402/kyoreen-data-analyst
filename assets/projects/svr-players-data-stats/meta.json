@@ -1,0 +1,8 @@
+{
+  "title": "SVR Players Data Stats",
+  "description": "Tournament team and individual statistics analysis. Per-player comparisons (damage, kills, matches) for portfolio.",
+  "sheet_url": "https://docs.google.com/spreadsheets/d/19sLvaX2H78wUgxiwjyML-fRUfXYHJOJ7FkrHVlDQv7E/edit?usp=sharing",
+  "notebook": "assets/projects/svr-players-data-stats/svr_players_analysis.ipynb",
+  "keep_outputs": false,
+  "commit_strategy": "branch-and-PR"
+}
