@@ -1,4 +1,3 @@
-// Project list (update links to point to your repos or notebooks)
 const projects = [
   {
     title: "PUBG Mobile Player Performance Analysis",
@@ -14,6 +13,13 @@ const projects = [
     title: "Esports Tactical Data Review",
     description: "Tactical reviews using structured match data to produce counter-strategies and scrim plans for teams.",
     link: "#"
+  },
+  {
+    title: "SVR Clover Stats Analyst",
+    description: "Player- and tournament-level performance analysis: movement, reaction, decision time vs damage and kills. Includes correlation heatmap and per-player comparisons.",
+    slug: "svr-clover-stats-analyst",
+    thumb: "assets/projects/svr-clover-stats-analyst/images/svr_clover_heatmap.png",
+    project_page: "projects/svr-clover-stats-analyst.html"
   }
 ];
 
@@ -23,8 +29,9 @@ function renderProjects(){
   projects.forEach(p=>{
     const card = document.createElement('article');
     card.className = 'project';
+    const link = p.project_page || p.link || '#';
     card.innerHTML = `
-      <h4><a href="${p.link}" target="_blank" rel="noopener">${p.title}</a></h4>
+      <h4><a href="${link}" target="_blank" rel="noopener">${p.title}</a></h4>
       <p>${p.description}</p>
     `;
     grid.appendChild(card);
