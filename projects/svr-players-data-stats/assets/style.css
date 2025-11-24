@@ -1,0 +1,118 @@
+/* ==== GLOBAL RESETS ==== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", Arial, sans-serif;
+}
+
+body {
+  background: #0b0c10;
+  color: #e6e6e6;
+  line-height: 1.6;
+  padding: 20px;
+}
+
+/* ==== CONTAINER ==== */
+.container {
+  max-width: 900px;
+  margin: auto;
+}
+
+/* ==== HEADER ==== */
+.site-header {
+  padding: 20px 0;
+  border-bottom: 1px solid #222;
+  margin-bottom: 30px;
+}
+
+.header-inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.site-header h1 {
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: #66fcf1;
+}
+
+.nav a {
+  color: #c5c6c7;
+  text-decoration: none;
+  font-size: 0.95rem;
+}
+
+.nav a:hover {
+  color: #66fcf1;
+}
+
+/* ==== CARD ==== */
+.card {
+  background: #1f2833;
+  padding: 20px 25px;
+  border-radius: 10px;
+  margin-bottom: 25px;
+  border: 1px solid #2f3a46;
+  box-shadow: 0 0 10px rgba(0,0,0,0.4);
+}
+
+.card h2, 
+.card h3 {
+  color: #66fcf1;
+  margin-bottom: 10px;
+}
+
+.card p,
+.card li,
+figcaption {
+  color: #d0d0d0;
+}
+
+/* ==== IMAGES ==== */
+figure {
+  margin-bottom: 20px;
+}
+
+figure img {
+  width: 100%;
+  border-radius: 8px;
+  border: 1px solid #333;
+}
+
+figcaption {
+  margin-top: 6px;
+  font-size: 0.85rem;
+  opacity: 0.8;
+}
+
+/* ==== LIST ==== */
+ul {
+  padding-left: 20px;
+}
+
+li {
+  margin-bottom: 6px;
+}
+
+/* ==== FOOTER ==== */
+.site-footer {
+  text-align: center;
+  padding: 25px 0;
+  margin-top: 40px;
+  opacity: 0.7;
+  font-size: 0.9rem;
+}
+
+/* ==== RESPONSIVE ==== */
+@media(max-width: 600px) {
+  .header-inner {
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .site-header h1 {
+    font-size: 1.4rem;
+  }
+}
