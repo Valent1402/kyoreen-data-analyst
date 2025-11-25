@@ -1,0 +1,25 @@
+{  
+  "title": "SVR Clover Stats Analyst",
+  "slug": "svr-clover-stats-analyst",
+  "description": "Player- and tournament-level performance analysis capturing movement, reaction, decision time, damage, kills and derived indicators to inform training and strategy.",
+  "images": [
+    "https://github.com/user-attachments/assets/5097a5c0-8aeb-448c-90dd-045cc83322c0",
+    "https://github.com/user-attachments/assets/31aaccd8-9bee-4096-a34d-849293512881",
+    "https://github.com/user-attachments/assets/aa386c6a-d696-49c0-9008-ed3a8808d276",
+    "https://github.com/user-attachments/assets/c92a6737-1816-4eee-bdab-abe51884d1cf"
+  ],
+  "captions": [
+    "Raw player statistics table with movement and reaction timers — cleaned snapshot of per-match recordings used to generate metrics.",
+    "Correlation heatmap showing relationships between key features (damage, kills, survival, movement and reaction times) and the derived \"WillImprove\" indicator.",
+    "Interpretation table summarizing how each feature correlates with the \"WillImprove\" score and recommended focus areas.",
+    "Per-match player breakdown and aggregate bar charts comparing damage, kills, survival, movement and timing metrics across players."
+  ],
+  "source_urls": [
+    "https://github.com/user-attachments/assets/5097a5c0-8aeb-448c-90dd-045cc83322c0",
+    "https://github.com/user-attachments/assets/31aaccd8-9bee-4096-a34d-849293512881",
+    "https://github.com/user-attachments/assets/aa386c6a-d696-49c0-9008-ed3a8808d276",
+    "https://github.com/user-attachments/assets/c92a6737-1816-4eee-bdab-abe51884d1cf"
+  ],
+  "keep_outputs": true,
+  "commit_strategy": "branch-and-PR"
+}
