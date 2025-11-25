@@ -1,4 +1,4 @@
-# SVR Clover Stats Analyst
+# SVR Esports Players Stats Analyst
 
 Overview
 - This project contains a player- and tournament-level analysis performed for SVR. It focuses on individual and team metrics derived from match recordings: Damage, Kills, Survival, MovementTime (minutes), ReactionTime (seconds), DecisionTime (seconds), HealRestored, and a derived indicator `WillImprove`.
